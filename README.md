@@ -6,3 +6,15 @@ While Steve's parents are focused on a single renewable energy stock (DAQO, or D
    With provided code, a macro was developed to analyze the return for the stock of interest, DQ. After using Range() and Cells() to create necessary headers in a new worksheet and establishing starting and ending price variables, the internet was consulted for the best way to identify the end of the worksheet. For loops and conditionals were used to pull stock-specific information from 2018 data and populate the new worksheet. The final result showed a return of -63% ... Steve was not impressed.
    
    
+   
+   
+   ![Alt text](https://user-images.githubusercontent.com/30667001/147508707-35852e8f-7d4d-4d90-b5b7-04b16a5f398b.png)
+   
+   
+   
+   
+   
+   
+   
+   
+   
