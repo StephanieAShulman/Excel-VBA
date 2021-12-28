@@ -22,11 +22,15 @@ The original coding required a number of iterations: an inner loop for total vol
 
  ![Alt text](https://user-images.githubusercontent.com/30667001/147583905-4e58781a-9da0-4527-89e1-40e3082b5707.png)
 
-The refracted code shorted the run times considerably (0.13 seconds apiece) by reducing the number of interations required. The arrays appeared to optimize the process.
+The refracted code shorted the run times considerably (0.13 seconds apiece) by reducing the number of interations required. Removing the inner loop and directing the remaining for loops through the arrays optimized total run times.
 
- ![Alt text](https://user-images.githubusercontent.com/30667001/147583962-1e848b44-64d7-4420-b6e8-c7f748d0fa08.png)
+ ![Alt text](https://user-images.githubusercontent.com/30667001/147586355-669eca00-80c2-408d-8f68-4c9ee1b59649.png)
  
- 
- 
- 
-   
+ ### Summary of Findings
+ #### Refractoring code: Advantages and disadvantages
+ <INSERT HERE>
+ #### Implications of advantages and disadvantage to VBA Wall Street script
+  <INSERT HERE>
+
+
+
