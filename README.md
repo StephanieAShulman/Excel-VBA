@@ -6,7 +6,7 @@ With provided code, a macros was developed to analyze the return for the stock o
 1. A timer to document the speed at which stock returns were calculated.
 2. A popout box, allowing the user to determine which year of returns to populate.
 3. Variables created for stock ticker symbols, starting prices and ending prices.
-4. For Loops and Nested Loops allowed for code to repeat the review task, with a If/Then/End If formula directing the flow.
+4. For Loops and Nested Loops allowed for code to repeat the review task, with an If/Then/End If formula directing the flow.
 5. Feeding of data directly to an output worksheet, providing stock symbol, total volume and final return.
 6. Color coding of return cells to highlight percentage stock increases (green) and decreases (red) over the year, as well as overall formatting of the displayed text.
 
@@ -22,19 +22,13 @@ The original coding required a number of iterations: an inner loop for total vol
 
 ![Alt text](https://user-images.githubusercontent.com/30667001/147583905-4e58781a-9da0-4527-89e1-40e3082b5707.png)
 
-The refracted code shorted the run times considerably (0.13 seconds apiece) by reducing the number of interations required. Removing the inner loop and directing the remaining for loops through the arrays optimized total run times.
+The refracted code shorted the run times considerably (0.13 seconds apiece) by reducing the number of required iterations. Removing the inner loop and directing the remaining for loops through the arrays optimized total run times.
 
 ![Alt text](https://user-images.githubusercontent.com/30667001/147586355-669eca00-80c2-408d-8f68-4c9ee1b59649.png)
  
  ### Summary of Findings
  #### Refractoring code: Advantages and disadvantages
- INSERT HERE
+ Refracting code should take existing work and make it easier to understand and maintain. As more is understood about the data upon which the code is run, necessary and unnecessary pieces can be improved upon. A drawback to such work could be the amount of time to change the code - especially if the macros will not be used often or does not result in any great improvement in efficiency.
    
  #### Implications of advantages and disadvantage to VBA Wall Street script
- INSERT HERE
-  
-    
- 
-
-
-
+In this particular instance, the original code served as a basis to test how well desired information could be imported into the spreadsheet. Refracting improved upon this code and allowed for an increase in the number of stocks that can be analyzed at a future date. It is important to consider - however - who will be responsible for updating any future code. If a new analyst were to take over this process, our responsibility would be to leave some embedded messaging/notations to help any future coders understand why certain steps were taken.
