@@ -15,22 +15,26 @@ The run concluded with a final statement of elapsed time from the ticker.
 The final result were two tables, which provided an overview of stock changes between 2017 and 2018.
 Between 2017 and 2018, only two stocks appeared to maintain sizeable gains: ENPH and RUN. These may be two additional stocks that Steve's parents could consider.
    
-   ![Alt text](https://user-images.githubusercontent.com/30667001/147508707-35852e8f-7d4d-4d90-b5b7-04b16a5f398b.png)
+![Alt text](https://user-images.githubusercontent.com/30667001/147508707-35852e8f-7d4d-4d90-b5b7-04b16a5f398b.png)
    
 ### Execution Times: Original vs Refractored Script
 The original coding required a number of iterations: an inner loop for total volume and starting and ending prices and an outer loop through ticker symbol before populating the new worksheet. The run times for 2017 and 2018 were over a minute (0.88 and 0.94 seconds respectively).
 
- ![Alt text](https://user-images.githubusercontent.com/30667001/147583905-4e58781a-9da0-4527-89e1-40e3082b5707.png)
+![Alt text](https://user-images.githubusercontent.com/30667001/147583905-4e58781a-9da0-4527-89e1-40e3082b5707.png)
 
 The refracted code shorted the run times considerably (0.13 seconds apiece) by reducing the number of interations required. Removing the inner loop and directing the remaining for loops through the arrays optimized total run times.
 
- ![Alt text](https://user-images.githubusercontent.com/30667001/147586355-669eca00-80c2-408d-8f68-4c9ee1b59649.png)
+![Alt text](https://user-images.githubusercontent.com/30667001/147586355-669eca00-80c2-408d-8f68-4c9ee1b59649.png)
  
  ### Summary of Findings
  #### Refractoring code: Advantages and disadvantages
- <INSERT HERE>
+ INSERT HERE
+   
  #### Implications of advantages and disadvantage to VBA Wall Street script
-  <INSERT HERE>
+ INSERT HERE
+  
+    
+ 
 
 
 
