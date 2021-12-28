@@ -18,6 +18,15 @@ Between 2017 and 2018, only two stocks appeared to maintain sizeable gains: ENPH
    ![Alt text](https://user-images.githubusercontent.com/30667001/147508707-35852e8f-7d4d-4d90-b5b7-04b16a5f398b.png)
    
 ### Execution Times: Original vs Refractored Script
-The original coding required the process to loop through all tickers, then through the spreadsheet by year, pulling ticker volume, then checking for starting and ending price. Refracted coding minimized the process by i
+The original coding required a number of iterations: an inner loop for total volume and starting and ending prices and an outer loop through ticker symbol before populating the new worksheet. The run times for 2017 and 2018 were over a minute (0.88 and 0.94 seconds respectively).
 
+ ![Alt text](https://user-images.githubusercontent.com/30667001/147583905-4e58781a-9da0-4527-89e1-40e3082b5707.png)
+
+The refracted code shorted the run times considerably (0.13 seconds apiece) by reducing the number of interations required. The arrays appeared to optimize the process.
+
+ ![Alt text](https://user-images.githubusercontent.com/30667001/147583962-1e848b44-64d7-4420-b6e8-c7f748d0fa08.png)
+ 
+ 
+ 
+ 
    
