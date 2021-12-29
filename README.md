@@ -22,13 +22,13 @@ The original coding required a number of iterations: an inner loop for total vol
 
 ![Alt text](https://user-images.githubusercontent.com/30667001/147583905-4e58781a-9da0-4527-89e1-40e3082b5707.png)
 
-The refracted code shorted the run times considerably (0.13 seconds apiece) by reducing the number of required iterations. Removing the inner loop and directing the remaining for loops through the arrays optimized total run times.
+The refractored code shorted the run times considerably (0.13 seconds apiece) by reducing the number of required iterations. Removing the inner loop and directing the remaining for loops through the arrays optimized total run times.
 
 ![Alt text](https://user-images.githubusercontent.com/30667001/147586355-669eca00-80c2-408d-8f68-4c9ee1b59649.png)
  
  ### Summary of Findings
  #### Refractoring code: Advantages and disadvantages
- Refracting code should take existing work and make it easier to understand and maintain. As more is understood about the data upon which the code is run, necessary and unnecessary pieces can be improved upon. A drawback to such work could be the amount of time to change the code - especially if the macros will not be used often or does not result in any great improvement in efficiency.
+ Refractoring code should take existing work and make it easier to understand and maintain. As more is understood about the data upon which the code is run, necessary and unnecessary pieces can be improved upon. A drawback to such work could be the amount of time to change the code - especially if the macros will not be used often or does not result in any great improvement in efficiency.
    
  #### Implications of advantages and disadvantage to VBA Wall Street script
-In this particular instance, the original code served as a basis to test how well desired information could be imported into the spreadsheet. Refracting improved upon this code and allowed for an increase in the number of stocks that can be analyzed at a future date. It is important to consider - however - who will be responsible for updating any future code. If a new analyst were to take over this process, our responsibility would be to leave some embedded messaging/notations to help any future coders understand why certain steps were taken.
+In this particular instance, the original code served as a basis to test how well desired information could be imported into the spreadsheet. Refractoring improved upon this code and allowed for an increase in the number of stocks that can be analyzed at a future date. It is important to consider - however - who will be responsible for updating any future code. If a new analyst were to take over this process, our responsibility would be to leave some embedded messaging/notations to help any future coders understand why certain steps were taken to save these individuals time and increase their success of further improvements.
