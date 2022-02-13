@@ -27,7 +27,7 @@ The refractored code shorted the run times considerably (0.13 seconds apiece) by
 ![Alt text](https://user-images.githubusercontent.com/30667001/147586355-669eca00-80c2-408d-8f68-4c9ee1b59649.png)
  
  ### Summary of Findings
- #### Refractoring code: Advantages and disadvantages
+ #### Refactoring code: Advantages and disadvantages
  Refractoring code should take existing work and make it easier to understand and maintain. As more is understood about the data upon which the code is run, necessary and unnecessary pieces can be improved upon. A drawback to such work could be the amount of time to change the code - especially if the macros will not be used often or does not result in any great improvement in efficiency.
    
  #### Implications of advantages and disadvantage to VBA Wall Street script
