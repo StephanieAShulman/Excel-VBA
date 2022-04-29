@@ -1,5 +1,10 @@
-# Challenge: VBA Refractor Code
-Steve's parents are focused on a single renewable energy stock (DAQO, or DQ). He would like them to expand their horizons. To assist Steve, this work employs Visual Basic for Applications (VBA) coding to create an automated review (a macros) of the returns for 11 additional stocks. The final performance provided sufficient information, but time is money. The next step of the process was to improve macros productivity for the days when Steve wants to review additional stocks. The following demonstrates how the original code was modified to increase macros efficiency.
+# Stock Analysis
+Using VBA to refactor stock analysis code
+
+![stocks](https://user-images.githubusercontent.com/30667001/165969976-60b8f38f-5487-43ab-91bc-427baec43d82.jpg)
+
+### Background
+Steve would like his parents to focus beyond a single renewable energy stock (DAQO, or DQ). To assist him, this work employs Visual Basic for Applications (VBA) coding to create an automated review (a macros) of the returns for 11 additional stocks. The final performance provided sufficient information, but time is money, and next steps are needed to improve macros productivity for reviewing additioonal stocks. The following demonstrates how the original code was modified to increase macros efficiency.
 
 ### Project Overview
 With provided code, a macros was developed to analyze the return for the stock of interest, DQ. Coding was then expanded to focus on additional stocks. The final code uses a number of key elements to display highlighted differences among the stocks, including:
@@ -17,18 +22,18 @@ Between 2017 and 2018, only two stocks appeared to maintain sizeable gains: ENPH
    
 ![Alt text](https://user-images.githubusercontent.com/30667001/147508707-35852e8f-7d4d-4d90-b5b7-04b16a5f398b.png)
    
-### Execution Times: Original vs Refractored Script
+### Execution Times: Original vs Refactored Script
 The original coding required a number of iterations: an inner loop for total volume and starting and ending prices and an outer loop through ticker symbol before populating the new worksheet. The run times for 2017 and 2018 were over a minute (0.88 and 0.94 seconds respectively).
 
 ![Alt text](https://user-images.githubusercontent.com/30667001/147583905-4e58781a-9da0-4527-89e1-40e3082b5707.png)
 
-The refractored code shorted the run times considerably (0.13 seconds apiece) by reducing the number of required iterations. Removing the inner loop and directing the remaining for loops through the arrays optimized total run times.
+The refactored code shorted the run times considerably (0.13 seconds apiece) by reducing the number of required iterations. Removing the inner loop and directing the remaining for loops through the arrays optimized total run times.
 
 ![Alt text](https://user-images.githubusercontent.com/30667001/147586355-669eca00-80c2-408d-8f68-4c9ee1b59649.png)
  
  ### Summary of Findings
  #### Refactoring code: Advantages and disadvantages
- Refractoring code should take existing work and make it easier to understand and maintain. As more is understood about the data upon which the code is run, necessary and unnecessary pieces can be improved upon. A drawback to such work could be the amount of time to change the code - especially if the macros will not be used often or does not result in any great improvement in efficiency.
+ Refactoring code should take existing work and make it easier to understand and maintain. As more is understood about the data upon which the code is run, necessary and unnecessary pieces can be improved upon. A drawback to such work could be the amount of time to change the code - especially if the macros will not be used often or does not result in any great improvement in efficiency.
    
  #### Implications of advantages and disadvantage to VBA Wall Street script
-In this particular instance, the original code served as a basis to test how well desired information could be imported into the spreadsheet. Refractoring improved upon this code and allowed for an increase in the number of stocks that can be analyzed at a future date. It is important to consider - however - who will be responsible for updating any future code. If a new analyst were to take over this process, our responsibility would be to leave some embedded messaging/notations to help any future coders understand why certain steps were taken to save these individuals time and increase their success of further improvements.
+In this particular instance, the original code served as a basis to test how well desired information could be imported into the spreadsheet. Refactoring improved upon this code and allowed for an increase in the number of stocks that can be analyzed at a future date. It is important to consider - however - who will be responsible for updating any future code. If a new analyst were to take over this process, our responsibility would be to leave some embedded messaging/notations to help any future coders understand why certain steps were taken to save these individuals time and increase their success of further improvements.
