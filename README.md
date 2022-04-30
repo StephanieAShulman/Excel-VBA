@@ -1,4 +1,4 @@
-# Stock Analysis
+# VBA of Wall Street Stock Analysis
 Using VBA to refactor stock analysis code
 
 ![stocks](https://user-images.githubusercontent.com/30667001/165969976-60b8f38f-5487-43ab-91bc-427baec43d82.jpg)
